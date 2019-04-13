@@ -1,0 +1,36 @@
+<!-- Create an app that lets users choose to display between 1 and 50 random dog images, 
+    then prints the results to the console. 
+    The app should feature a form with a required input where users indicate the number of images to retrieve, 
+    and the input should default to 3. 
+    Use the endpoint described in the "DISPLAY MULTIPLE RANDOM IMAGES FROM ALL DOGS COLLECTION" 
+    section of this page of the DogAPI docs.
+    https://dog.ceo/dog-api/documentation/random
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Asynchronous Web Apps Assignment One</title>
+    <meta name="description" content="An asynchronous web application">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Those Adorable Dogs!</h1>
+      <form>
+        Enter the number (between 1 and 50) of dog images you wish to have printed to the console: <br>
+        <p></p>
+        <input type="number" name="quantity" min="1" max="50" value="3" class="nDogs"> 
+        <input type="submit" class="submission">
+      </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
+
